@@ -2,8 +2,10 @@ const express = require('express');
 const serveStatic = require('serve-static');
 const path = require('path');
 
+// this is a simple express server to serve test files for gcds-map PMtiles testing because the stencil
+// dev server does not support byte range requests needed for PMTiles
 const app = express();
-const PORT = 30333; // Different port from Stencil dev server (3333)
+const PORT = 30333; // Different port from Stencil dev/test server (3333)
 
 // Enable CORS for all routes
 app.use((req, res, next) => {
