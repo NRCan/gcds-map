@@ -2,7 +2,7 @@
 
 ## Architecture Overview
 
-This is a **Stencil-based fork** of MapML viewer technology that creates GCDS-compliant web map components. The architecture follows a **shadow DOM encapsulation pattern** with a critical **"set once"** property design.
+This is a **Stencil-based fork** of MapML viewer technology that creates GCDS-compliant web map components. 
 
 ### Key Components
 - **`gcds-map`**: Main Stencil component that is a stencil refactoring of `mapml-viewer` from src/mapml-source/mapml-viewer.js
